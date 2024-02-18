@@ -1,0 +1,230 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #f9f4e8;
+
+  padding: 4vh 11vw;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+/* nav {
+  display: flex;
+
+  align-items: center;
+  align-content: center;
+  justify-content: flex-start;
+} */
+
+.left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.mainbtn {
+  font-family: "Lato", sans-serif;
+  font-size: 7.2px;
+  padding: 6px 12px;
+  border-radius: 16px;
+  background: linear-gradient(45deg, orange, red);
+  color: white;
+  border: none;
+}
+
+.mainbtn:hover {
+  cursor: pointer;
+  filter: brightness(1.1);
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  gap: 20px;
+  color: #525252;
+  font-size: 14.5px;
+  font-weight: 400;
+}
+
+.center div a {
+  display: flex;
+  text-decoration: none;
+  color: #525252;
+  gap: 10px;
+  font-family: "Lato";
+  font-size: 14.4px;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+#btn1 {
+  font-size: 14.4px;
+  font-family: "Lato";
+  color: #525252;
+  border: none;
+}
+#btn1:hover {
+  cursor: pointer;
+  text-decoration: black underline;
+  transition: 0.3s;
+}
+
+.hero {
+  display: flex;
+  gap: 100px;
+  padding-top: 75px;
+  padding-bottom: 100px;
+}
+.leftside {
+  display: flex;
+  gap: 14px;
+  flex-direction: column;
+  justify-content: start;
+  width: 660px;
+}
+
+.leftside h1 {
+  font-family: "Playfair Display";
+  font-size: 42px;
+  line-height: 1.2;
+  font-weight: bolder;
+  text-align: start;
+}
+
+.leftside p {
+  color: #525252;
+  font-family: "Lato";
+  font-size: 14.5px;
+  font-weight: 200;
+  text-align: start;
+}
+
+.Email input {
+  border: none;
+  border-radius: 5px;
+  width: 33vw;
+  padding: 14.4px;
+  font-family: "Lato";
+  font-size: 14.4px;
+  text-align: start;
+}
+
+.btn2 {
+  background-color: #5678ce;
+  color: white;
+  margin-left: 4px;
+  width: 10rem;
+  font-weight: 700;
+  font-size: 14.4px;
+  font-family: "Lato";
+  text-align: center;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+}
+
+#tick {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.rightside {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 450px;
+  position: relative;
+}
+
+#mainimage {
+  position: relative;
+  height: 450px;
+  width: 392px;
+  z-index: 20;
+}
+
+#Purple {
+  position: absolute;
+  transform: rotate(-15deg);
+  z-index: 15;
+}
+#pink {
+  position: absolute;
+  transform: rotate(-30deg);
+  z-index: 10;
+}
+#Blue {
+  position: absolute;
+  transform: rotate(-45deg);
+  z-index: 5;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.leftfooter {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  text-decoration: none;
+  gap: 20px;
+  color: #525252;
+  font-size: 14.5px;
+  font-weight: 400;
+}
+
+.leftfooter a {
+  display: flex;
+  text-decoration: none;
+  color: #525252;
+  gap: 10px;
+  font-family: "Lato";
+  font-size: 14.4px;
+}
+.rightfooter {
+  display: flex;
+  gap: 10px;
+}
+.rightfooter > div > p {
+  font-size: 14.4px;
+}
+
+@media screen and (max-width: 895px) {
+  .center,
+  .right {
+    display: none;
+  }
+  .menu span {
+    display: flex;
+    margin: 3px;
+    width: 20px;
+    height: 4px;
+    background-color: black;
+    color: black;
+  }
+  .hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+  .leftside {
+  }
+  .rightside {
+  }
+}
