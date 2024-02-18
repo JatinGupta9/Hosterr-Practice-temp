@@ -7,3 +7,5 @@
   <p>2. Understanding some basics transition Properties such as Rotate .</p>
   <p>3. Learn how to make Hamberger Menu icon to increase the responsiveness of a Website (Statically).</p>
 </ul>
+
+<h2>Alert: Not responsive</h2>
